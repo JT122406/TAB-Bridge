@@ -6,7 +6,7 @@ plugins {
 dependencies {
     implementation(projects.shared)
     implementation("org.bstats:bstats-bukkit:3.1.0")
-    compileOnly("org.spigotmc:spigot-api:1.20.2-R0.1-SNAPSHOT")
+    compileOnly("org.spigotmc:spigot-api:1.21.5-R0.1-SNAPSHOT")
     compileOnly("me.clip:placeholderapi:2.11.6")
     compileOnly("com.github.MilkBowl:VaultAPI:1.7")
     compileOnly("LibsDisguises:LibsDisguises:10.0.21") {
