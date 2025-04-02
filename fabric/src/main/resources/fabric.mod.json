@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "@id@",
+  "version": "@version@",
+  "name": "@name@",
+  "description": "@description@",
+  "authors": ["@author@"],
+  "environment": "server",
+  "entrypoints": {
+    "server": ["me.naznamy.tab.bridge.fabric.FabricBridge"]
+  },
+  "depends": {
+    "fabric-api-base": "*",
+    "minecraft": [
+      "1.21.4",
+      "1.21.5"
+    ]
+  }
+}

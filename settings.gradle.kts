@@ -23,4 +23,5 @@ rootProject.name = "TAB-Bridge"
 
 include("shared")
 include("bukkit")
+include("fabric")
 include("jar")
